@@ -10,7 +10,7 @@ spec:
       - CreateNamespace=true
   source:
     repoURL: https://github.com/kaito2/locust-on-gke.git
-    targetRevision: v1
+    targetRevision: HEAD
     path: apps/sample01
   destination:
     server: https://kubernetes.default.svc
