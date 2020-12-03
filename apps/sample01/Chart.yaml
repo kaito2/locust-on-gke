@@ -1,0 +1,8 @@
+apiVersion: v2
+name: sample01
+version: 0.1.0
+
+dependencies:
+  - name: locust-in-cage
+    version: 0.1.1
+    repository: "https://raw.githubusercontent.com/kaito2/locust-in-cage/master/helm-chart"

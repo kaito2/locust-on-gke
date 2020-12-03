@@ -1,0 +1,9 @@
+locust-in-cage:
+  locust:
+    master:
+      config:
+        target-host: "http://sample-service.default"
+    worker:
+      replicaCount: 0
+      config:
+        configmapName: conf # DO NOT EDIT
